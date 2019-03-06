@@ -45,6 +45,8 @@ services:
     image: theo024/mosquitto-auth-plug:latest
     ports:
       - "1883:1883"
+    volumes:
+      - ./configuration/mosquitto:/mosquitto/config
 
 volumes:
   postgresqldata:
