@@ -5,8 +5,6 @@
 name="collos"
 
 [geo_server.backend.collos]
-# Collos subscription key.
-#
-# This key can be retrieved after creating a Collos account at:
-# http://preview.collos.org/
-subscription_key=""
+
+# Request timeout.
+request_timeout=60
