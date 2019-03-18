@@ -2,7 +2,7 @@ version: "3"
 
 services:
   loraserver:
-    image: loraserver/loraserver:2
+    image: theo024/loraserver:latest
     restart: unless-stopped
     volumes:
       - ./configuration/loraserver:/etc/loraserver
@@ -24,7 +24,7 @@ services:
       - ./configuration/lora-gateway-bridge:/etc/lora-gateway-bridge
 
   geoserver:
-    image: loraserver/lora-geo-server:2
+    image: theo024/lora_geo:latest
     restart: unless-stopped
     volumes:
       - ./configuration/lora-geo-server:/etc/lora-geo-server

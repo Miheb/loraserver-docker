@@ -2,9 +2,9 @@
 # configuration example and documentation.
 
 [geo_server.backend]
-name="collos"
+name="willy"
 
-[geo_server.backend.collos]
+[geo_server.backend.willy]
 
 # Request timeout.
 request_timeout=60
